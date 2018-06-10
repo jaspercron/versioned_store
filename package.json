@@ -1,0 +1,28 @@
+{
+  "name": "versioned_glaze",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/jaspercron/versioned_store"
+  },
+  "license": "Apache License 2.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
