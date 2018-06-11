@@ -1,4 +1,4 @@
-require('dotenv').config();
+//require('dotenv').config();
 
 //# Includes
 const Express    = require("express");
@@ -27,8 +27,8 @@ app.use('/object', routes);
 
 // init server
 dbPromise.then(() => {
-	const listener = app.listen(process.env.port, () => {
-		console.log('Listening on Port: ' + listener.address().port);
+	const listener = app.listen(process.env.PORT, () => {
+		console.log('Listening on Port: ' + listener.address().PORT);
 	});
 });
 
